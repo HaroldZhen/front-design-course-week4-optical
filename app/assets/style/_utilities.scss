@@ -677,7 +677,6 @@
     padding-right: $value !important;
   }
 }
-
 @each $item, $value in $spacers {
   @include md {
     .p-md-#{$item} {
@@ -705,7 +704,6 @@
     }
   }
 }
-
 @each $item, $value in $spacers {
   @include sm {
     .p-sm-#{$item} {

@@ -1,0 +1,128 @@
+// Footer
+.footer {
+  padding-top: 44px;
+  padding-bottom: 39px;
+  @include md {
+    padding-top: 32px;
+    padding-bottom: 21px;
+  }
+  @include sm {
+    padding-top: 25px;
+    padding-bottom: 24px;
+  }
+  .footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    @include md {
+      margin-bottom: 1.25rem;
+    }
+  }
+  &, a {
+    color: $white;
+  }
+  .footerMenu {
+    display: flex;
+    margin-bottom: 24px;
+    padding: 12px 0;
+    @include md {
+      padding: 0;
+      margin-top: 6px;
+      margin-bottom: 18px;
+    }
+    @include sm {
+      display: none;
+    }
+    .footerMenu-item + .footerMenu-item {
+      margin-left: 3rem;
+    }
+    .footerMenu-link {
+      font-size: 16px;
+    }
+  }
+  .contact {
+    .contact-link {
+      display: flex;
+      align-items: center;
+      font-size: 2.25rem;
+      @include md {
+        font-size: 1.25rem;
+      }
+      @include sm {
+        font-size: 1rem;
+      }
+      span {
+        margin-right: 1rem;
+        @include md {
+          margin-right: 5px;
+        }
+      }
+      @include md {
+        li + li {
+          margin-top: 12px;
+        }
+      }
+    }
+  }
+  .social {
+    display: flex;
+    &__bg-fb{
+      background-image: url("../images/icon-fb.svg");
+    }
+    &__bg-ig{
+      background-image: url("../images/icon-ig.svg");
+    }
+    &__bg-line{
+      background-image: url("../images/icon-line.svg");
+    }
+    .social-link {
+      display: block;
+      width: 48px;
+      height: 48px;
+      @include md {
+        width: 24px;
+        height: 24px;
+      }
+    }
+    .social-item + .social-item {
+      margin-left: 2rem;
+      @include md {
+        margin-left: 1.5rem;
+      }
+    }
+  }
+
+  .copyright {
+    padding-top: 2rem;
+    border-top: 1px solid $white;
+    display: flex;
+    justify-content: space-between;
+    @include md {
+      padding-top: 1.5rem;
+    }
+    @include sm {
+      padding-top: 1rem;
+      flex-direction: column;
+    }
+    .term {
+      @include md {
+        margin-top: 12px;
+      }
+      @include sm {
+        margin-top: 0.5rem;
+        display: flex;
+        flex-direction: column;
+      }
+      .term-link + .term-link {
+        margin-left: 3rem;
+        @include md {
+          margin-left: 1.5rem;
+        }
+        @include sm {
+          margin-left: 0;
+          margin-top: 0.5rem;
+        }
+      }
+    }
+  }
+}

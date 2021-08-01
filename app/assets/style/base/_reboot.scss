@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Roboto", "Noto Sans", sans-serif;
+  line-height: 1.5;
+}
+h1,
+.h1 {
+  font-size: $h1-font-size;
+}
+h2,
+.h2 {
+  font-size: $h2-font-size;
+}
+h3,
+.h3 {
+  font-size: $h3-font-size;
+}
+h4,
+.h4 {
+  font-size: $h3-font-size;
+}
+h5,
+.h5 {
+  font-size: $h5-font-size;
+}
+h6,
+.h6 {
+  font-size: $h6-font-size;
+}
+
+.material-icons,.material-icons-outlined {
+  display: inline-block;
+  font-size: inherit;
+  line-height: inherit;
+  vertical-align: middle;
+  transform: translateY(-.1em);
+}

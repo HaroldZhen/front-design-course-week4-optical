@@ -1,0 +1,112 @@
+//
+// Hero
+//
+.hero {
+  width: 100%;
+  height: 840px;
+  &__bg {
+    background-image: url("../images/banner.png");
+    @include md {
+      background-image: url("../images/banner-sm.png");
+    }
+  }
+  @include sm {
+    min-height: 394px;
+  }
+}
+.index-container{
+  padding-top: 60px;
+  padding-bottom: 80px;
+  @include md {
+    padding-top: 40px;
+    padding-bottom: 56px;
+  }
+  @include sm {
+    padding-top: 32px;
+    padding-bottom: 40px;
+  }
+}
+//
+// Service
+//
+.service {
+  &__content {
+    max-width: 255px;
+  }
+}
+
+.series {
+  &__img1 {
+    background-image: url('../images/product-1.png');
+  }
+  &__img2 {
+    background-image: url('../images/product-2.png');
+  }
+  &__img3 {
+    background-image: url('../images/product-3.png');
+  }
+  &__image {
+    min-height: 320px;
+    @include md {
+      min-height: 168px;
+    }
+    @include sm {
+      position: absolute;
+      max-width: 100%;
+      min-height: 134px;
+      top: 0;
+      left: 15px;
+      right: 15px;
+      bottom: 0;
+      z-index: -1;
+    }
+  }
+}
+//
+// Classic
+//
+.classic {
+  &__bg {
+    background-image: url("../images/bg.png");
+  }
+  &__img1 {
+    background-image: linear-gradient(rgba($white, 0.5), rgba($white, 0.5)),
+      url("../images/product-8.png");
+  }
+  &__img2 {
+    background-image: linear-gradient(rgba($white, 0.5), rgba($white, 0.5)),
+      url("../images/product-9.png");
+  }
+  &__block{
+    min-height: 455px;
+    @include md {
+      min-height: 278px;
+    }
+    @include sm {
+      min-height: 291px;
+    }
+  }
+}
+
+.card {
+  overflow: hidden;
+  &__content {
+    min-height: 112px;
+  }
+}
+
+.contactUs{
+  &__input{
+    padding: 12px 16px;
+    background-color: transparent;
+    border: 1px solid #000;
+    margin-top: 4px;
+    &::placeholder{
+      color: rgba(#000, 0.2);
+    }
+    &:focus, &:hover {
+      background-color: $white;
+      border: 1px solid #000;
+    }
+  }
+}

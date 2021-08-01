@@ -1,0 +1,63 @@
+@import "./layout/header";
+@import "./layout/footer";
+main {
+  min-height: calc(100vh - 109px - 344px);
+  @include md {
+    min-height: calc(100vh - 109px - 190px);
+  }
+  @include sm {
+    min-height: calc(100vh - 146px - 233px);
+  }
+}
+
+.categoryMenu {
+  &__item {
+    padding: 27px 0;
+    @include md {
+      padding: 14px 0;
+    }
+    @include sm {
+      padding: 6px 0;
+    }
+    background-image: linear-gradient(rgba($primary, 0.2), rgba($primary, 0.2));
+    background-position: left bottom;
+    background-size: 0 8px;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s;
+    &.active {
+      background-image: linear-gradient($primary, $primary);
+      background-size: 100% 8px;
+    }
+    &:not(.active):hover {
+      background-size: 100% 8px;
+    }
+  }
+}
+
+.banner {
+  &__img {
+    min-height: 304px;
+    @include sm {
+      min-height: 148px;
+    }
+  }
+}
+
+.breadcrumb {
+  display: flex;
+  a {
+    color: $black;
+  }
+  &-item.active {
+    color: $primary;
+  }
+  &-item + &-item {
+    margin-left: 1.5rem;
+    position: relative;
+    &::after{
+      content: '/';
+      position: absolute;
+      left: -0.75rem;
+    }
+  }
+}

@@ -7,10 +7,10 @@
 - [首頁 index](https://haroldzhen.github.io/front-design-course-week4-optical)
 - [Product](https://haroldzhen.github.io/front-design-course-week4-optical/product.html)
 - [ProductSun](https://haroldzhen.github.io/front-design-course-week4-optical/product-sun.html)
-- [About](https://haroldzhen.github.io/front-design-course-week4-optical/about.html)
 - [Blog List](https://haroldzhen.github.io/front-design-course-week4-optical/blog.html)
 - [Blog Page](https://haroldzhen.github.io/front-design-course-week4-optical/blog-content.html)
 - [Location](https://haroldzhen.github.io/front-design-course-week4-optical/location.html)
+- [FAQ](https://haroldzhen.github.io/front-design-course-week4-optical/faq.html)
 
 
 ### 主要練習

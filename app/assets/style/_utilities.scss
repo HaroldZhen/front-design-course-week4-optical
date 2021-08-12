@@ -487,7 +487,6 @@
   }
 }
 
-
 .position {
   &-relative {
     position: relative;
@@ -739,8 +738,23 @@
   color: $white;
   background-color: $primary;
   border-width: 0;
-  transition: background-color 1s linear;
+  transition: background-color 0.3s ease-in-out;
   &:hover {
-    background-color: darken($primary, 5);
+    background-color: darken($primary, 8) !important;
+  }
+}
+.link-hover {
+  &:hover {
+    color: darken($primary, 8) !important;
+  }
+  &-primary {
+    &:hover {
+      color: $primary !important;
+    }
+  }
+  &-grey-200 {
+    &:hover {
+      color: $gray200 !important;
+    }
   }
 }

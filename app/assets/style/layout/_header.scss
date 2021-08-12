@@ -18,7 +18,7 @@
       margin: 10px 0;
     }
   }
-  &__nav{
+  &__nav {
     @include sm {
       width: 100%;
     }
@@ -45,12 +45,18 @@
       display: block;
     }
   }
-  .header__link-white{
+  .header__link-white {
     color: $white;
     font-size: 1.25rem;
     line-height: 1.35;
     @include md {
       text-align: center;
+    }
+    &:hover,
+    &:focus,
+    &:active {
+      color: darken($secondary, 0.8);
+      font-weight: bold;
     }
   }
 }

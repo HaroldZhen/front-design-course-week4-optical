@@ -11,11 +11,18 @@
     border: 1px solid $gray500;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
       border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: lighten($primary, 0.2);
+      color: $white;
+    }
     &.active {
       background-color: $black;
       color: $white;
     }
     &.disabled {
+      color: $black;
       background-color: $gray300;
     }
   }

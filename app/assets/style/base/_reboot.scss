@@ -10,6 +10,7 @@ img {
 }
 a {
   text-decoration: none;
+  color: inherit;
 }
 body {
   font-family: "Roboto", "Noto Sans", sans-serif;
@@ -46,4 +47,5 @@ h6,
   line-height: inherit;
   vertical-align: middle;
   transform: translateY(-.1em);
+  line-height: 1;
 }

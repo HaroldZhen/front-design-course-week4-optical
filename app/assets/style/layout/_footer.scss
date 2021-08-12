@@ -18,7 +18,8 @@
       margin-bottom: 1.25rem;
     }
   }
-  &, a {
+  &,
+  a {
     color: $white;
   }
   .footerMenu {
@@ -38,6 +39,11 @@
     }
     .footerMenu-link {
       font-size: 16px;
+      &:hover,
+      &:focus,
+      &:active {
+        color: darken($secondary, 0.8);
+      }
     }
   }
   .contact {
@@ -45,6 +51,11 @@
       display: flex;
       align-items: center;
       font-size: 2.25rem;
+      &:hover,
+      &:focus,
+      &:active {
+        color: darken($secondary, 0.8);
+      }
       @include md {
         font-size: 1.25rem;
       }
@@ -66,13 +77,13 @@
   }
   .social {
     display: flex;
-    &__bg-fb{
+    &__bg-fb {
       background-image: url("../images/icon-fb.svg");
     }
-    &__bg-ig{
+    &__bg-ig {
       background-image: url("../images/icon-ig.svg");
     }
-    &__bg-line{
+    &__bg-line {
       background-image: url("../images/icon-line.svg");
     }
     .social-link {
@@ -82,6 +93,11 @@
       @include md {
         width: 24px;
         height: 24px;
+      }
+      &:hover,
+      &:focus,
+      &:active {
+        fill: darken($secondary, 0.8);
       }
     }
     .social-item + .social-item {
@@ -101,6 +117,7 @@
       padding-top: 1.5rem;
     }
     @include sm {
+      font-size: 0.875rem;
       padding-top: 1rem;
       flex-direction: column;
     }
@@ -109,6 +126,7 @@
         margin-top: 12px;
       }
       @include sm {
+        font-size: 0.875rem;
         margin-top: 0.5rem;
         display: flex;
         flex-direction: column;
@@ -121,6 +139,14 @@
         @include sm {
           margin-left: 0;
           margin-top: 0.5rem;
+        }
+      }
+      .term-link {
+        font-size: 0.875rem;
+        &:hover,
+        &:focus,
+        &:active {
+          color: darken($secondary, 0.8);
         }
       }
     }

@@ -11,10 +11,10 @@
     }
   }
   @include sm {
-    min-height: 394px;
+    height: 394px;
   }
 }
-.index-container{
+.index-container {
   padding-top: 60px;
   padding-bottom: 80px;
   @include md {
@@ -37,13 +37,13 @@
 
 .series {
   &__img1 {
-    background-image: url('../images/product-1.png');
+    background-image: url("../images/product-1.png");
   }
   &__img2 {
-    background-image: url('../images/product-2.png');
+    background-image: url("../images/product-2.png");
   }
   &__img3 {
-    background-image: url('../images/product-3.png');
+    background-image: url("../images/product-3.png");
   }
   &__image {
     min-height: 320px;
@@ -77,7 +77,7 @@
     background-image: linear-gradient(rgba($white, 0.5), rgba($white, 0.5)),
       url("../images/product-9.png");
   }
-  &__block{
+  &__block {
     min-height: 455px;
     @include md {
       min-height: 278px;
@@ -93,18 +93,26 @@
   &__content {
     min-height: 112px;
   }
+  &:hover {
+    transform: translateY(-3px);
+    // box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    .btn {
+      background-color: darken($primary, 8) !important;
+    }
+  }
 }
 
-.contactUs{
-  &__input{
+.contactUs {
+  &__input {
     padding: 12px 16px;
     background-color: transparent;
     border: 1px solid #000;
     margin-top: 4px;
-    &::placeholder{
+    &::placeholder {
       color: rgba(#000, 0.2);
     }
-    &:focus, &:hover {
+    &:focus,
+    &:hover {
       background-color: $white;
       border: 1px solid #000;
     }

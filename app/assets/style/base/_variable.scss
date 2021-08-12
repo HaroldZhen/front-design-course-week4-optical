@@ -21,54 +21,54 @@ $grid-columns: 12;
 
 $spacer: 1rem;
 $spacers: (
-  'n3d5': $spacer * -1.25,
-  'n2': $spacer * -0.5,
-  'n1': $spacer * -0.25,
-  0: 0,
-  1: $spacer * 0.25,
-  2: $spacer * 0.5,
-  3: $spacer,
-  4: $spacer * 1.5,
-  5: $spacer * 2,
-  6: $spacer * 2.5,
-  7: $spacer * 3,
-  8: $spacer * 3.5,
-  9: $spacer * 4,
-  10: $spacer * 4.5,
-  11: $spacer * 5,
-  '1d5': $spacer * 0.75,
-  '3d5': $spacer * 1.25,
-  '4d5': $spacer * 1.75,
-  '5d5': $spacer * 2.25,
-  '7d5': $spacer * 3.75,
-  'xl': $spacer * 6,
-  'xxl': $spacer * 6.5,
-  'xxxl': $spacer * 10,
+  'n3d5': $spacer * -1.25, // -20px
+  'n2': $spacer * -0.5,    // -8px
+  'n1': $spacer * -0.25,   // -4px
+  0: 0,                    // 0px
+  1: $spacer * 0.25,       // 4px
+  2: $spacer * 0.5,        // 8px
+  3: $spacer,              // 16px
+  4: $spacer * 1.5,        // 24px
+  5: $spacer * 2,          // 32px
+  6: $spacer * 2.5,        // 40px
+  7: $spacer * 3,          // 48px
+  8: $spacer * 3.5,        // 56px
+  9: $spacer * 4,          // 64px
+  10: $spacer * 4.5,       // 72px
+  11: $spacer * 5,         // 80px
+  '1d5': $spacer * 0.75,   // 12px
+  '3d5': $spacer * 1.25,   // 20px
+  '4d5': $spacer * 1.75,   // 28px
+  '5d5': $spacer * 2.25,   // 36px
+  '7d5': $spacer * 3.75,   // 60px
+  'xl': $spacer * 6,       // 96px
+  'xxl': $spacer * 6.5,    // 104px
+  'xxxl': $spacer * 10,    // 160px
 );
 
 $font-size-base: 1rem;
 
 $font-sizes: (
-  0: 0,
-  1: $font-size-base * 0.875,
-  2: $font-size-base,
-  3: $font-size-base * 1.25,
-  4: $font-size-base * 1.5,
-  5: $font-size-base * 1.75,
-  6: $font-size-base * 2,
-  7: $font-size-base * 2.25,
-  8: $font-size-base * 2.5,
-  9: $font-size-base * 3,
-  10: $font-size-base * 3.5,
-  11: $font-size-base * 4,
-  12: $font-size-base * 4.5,
-  "xxl": $font-size-base * 6.25,
-  "8d5": $font-size-base * 2.625,
+  0: 0,                           // 0px
+  1: $font-size-base * 0.875,     // 14px
+  2: $font-size-base,             // 16px
+  3: $font-size-base * 1.25,      // 20px
+  4: $font-size-base * 1.5,       // 24px
+  5: $font-size-base * 1.75,      // 28px
+  6: $font-size-base * 2,         // 32px
+  7: $font-size-base * 2.25,      // 36px
+  8: $font-size-base * 2.5,       // 40px
+  9: $font-size-base * 3,         // 48px
+  10: $font-size-base * 3.5,      // 56px
+  11: $font-size-base * 4,        // 64px
+  12: $font-size-base * 4.5,      // 72px
+  "xxl": $font-size-base * 6.25,  // 100px
+  "8d5": $font-size-base * 2.625, // 42px
 );
 
-$h1-font-size: $font-size-base * 4;
-$h2-font-size: $font-size-base * 3;
-$h3-font-size: $font-size-base * 1.5;
-$h4-font-size: $font-size-base * 1.25;
-$h5-font-size: $font-size-base;
-$h6-font-size: $font-size-base * 0.875;
+$h1-font-size: $font-size-base * 4;     // 64px
+$h2-font-size: $font-size-base * 3;     // 48px
+$h3-font-size: $font-size-base * 1.5;   // 24px
+$h4-font-size: $font-size-base * 1.25;  // 20px
+$h5-font-size: $font-size-base;         // 16px
+$h6-font-size: $font-size-base * 0.875; // 14px

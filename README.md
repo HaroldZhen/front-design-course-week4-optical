@@ -10,6 +10,7 @@
 - [Blog List](https://haroldzhen.github.io/front-design-course-week4-optical/blog.html)
 - [Blog Page](https://haroldzhen.github.io/front-design-course-week4-optical/blog-content.html)
 - [Location](https://haroldzhen.github.io/front-design-course-week4-optical/location.html)
+- [Location2](https://haroldzhen.github.io/front-design-course-week4-optical/location-2.html)
 - [FAQ](https://haroldzhen.github.io/front-design-course-week4-optical/faq.html)
 
 

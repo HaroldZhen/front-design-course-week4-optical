@@ -7,23 +7,14 @@
   }
   &__bg2 {
     background-image: url("../images/banner-2.png");
-    @include md {
-      background-image: url("../images/banner-2-md.png");
-    }
   }
   &__bg3 {
     background-image: url("../images/banner-3.png");
-    @include md {
-      background-image: url("../images/banner-3-md.png");
-    }
   }
   &__bg4 {
     background-image: url("../images/banner-4.png");
-    @include md {
-      background-image: url("../images/banner-4-md.png");
-    }
   }
-  &__img{
+  &__img {
     height: 164px;
     object-fit: cover;
     @include sm {

@@ -5,13 +5,13 @@
 主要為切版練習
 ## 頁面：
 - [首頁 index](https://haroldzhen.github.io/front-design-course-week4-optical)
-- [Product](https://haroldzhen.github.io/front-design-course-week4-optical/product.html)
-- [ProductSun](https://haroldzhen.github.io/front-design-course-week4-optical/product-sun.html)
-- [Blog List](https://haroldzhen.github.io/front-design-course-week4-optical/blog.html)
-- [Blog Page](https://haroldzhen.github.io/front-design-course-week4-optical/blog-content.html)
-- [Location](https://haroldzhen.github.io/front-design-course-week4-optical/location.html)
-- [Location2](https://haroldzhen.github.io/front-design-course-week4-optical/location-2.html)
-- [FAQ](https://haroldzhen.github.io/front-design-course-week4-optical/faq.html)
+- [產品 Product](https://haroldzhen.github.io/front-design-course-week4-optical/product.html)
+- [產品-太陽眼鏡 Product Sun-Glasses](https://haroldzhen.github.io/front-design-course-week4-optical/product-sun.html)
+- [部落格 Blogs](https://haroldzhen.github.io/front-design-course-week4-optical/blog.html)
+- [文章 Page](https://haroldzhen.github.io/front-design-course-week4-optical/blog-content.html)
+- [門市據點 locations](https://haroldzhen.github.io/front-design-course-week4-optical/location.html)
+- [門市據點-單店 location](https://haroldzhen.github.io/front-design-course-week4-optical/location-2.html)
+- [常見問題 FAQ](https://haroldzhen.github.io/front-design-course-week4-optical/faq.html)
 
 
 ### 主要練習

@@ -1,6 +1,6 @@
 # 第四週 - 眼鏡電商
 
-![Demo](https://i.imgur.com/karUvRP.jpg)
+![Demo](https://i.imgur.com/jTJ0YpZ.png)
 ## 簡介
 主要為切版練習
 ## 頁面：
